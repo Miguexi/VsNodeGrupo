@@ -11,7 +11,7 @@ const hostname = '0.0.0.0'; // Dirección IP para escuchar solicitudes (acepta c
 const port = 3000; // Puerto donde estará disponible la aplicación
 
 // Definimos la versión de la aplicación
-const version = '3'; // Identificador de versión para el servidor
+const version = '4'; // Identificador de versión para el servidor
 
 // Configuramos una ruta para manejar solicitudes GET al endpoint raíz ('/')
 app.get('/', (req, res) => {
