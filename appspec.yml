@@ -3,7 +3,7 @@ Resources:
   - myECSService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: arn:aws:ecs:us-east-1:713881791522:task-definition/nodejs-app-task:1
+        TaskDefinition: arn:aws:ecs:eu-west-3:147997142139:task-definition/nodejstask:2
         LoadBalancerInfo:
-          ContainerName: nodejs-container
+          ContainerName: nodejscontainer
           ContainerPort: 3000
